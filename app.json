@@ -1,0 +1,6 @@
+{
+  "name": "Project Blackbird",
+  "description": "a distributed social network client",
+  "repository": "https://github.com/RadGade/Project-Blackbird",
+  "keywords": ["node", "gunDB", "social-network"]
+}

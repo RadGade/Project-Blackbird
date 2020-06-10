@@ -1,9 +1,6 @@
 {
-  "name": "gun-server",
-  "stack": "heroku-18",
-  "website": "http://gun.eco/",
+  "name": "Project Blackbird",
+  "description": "a distributed social network client",
   "repository": "https://github.com/RadGade/Project-Blackbird",
-  "logo": "https://avatars3.githubusercontent.com/u/8811914",
-  "keywords": ["node", "gun", "gunDB", "database", "graph", "offline-first"],
-  "description": "Javascript, Offline-First Javascript Graph Database Server Peer"
+  "keywords": ["node", "gunDB", "social-network"]
 }

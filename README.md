@@ -4,7 +4,7 @@ Project Blackbird is a intiative to build a distributed social network client th
 
 _Note that you will need to have [Node.js](https://nodejs.org) installed._
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/RadGade/Project-Blackbird)
 
 ## Get started
 

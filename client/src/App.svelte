@@ -2,7 +2,7 @@
     import Router, {wrap, push, replace} from 'svelte-spa-router';
     import Notifications from 'svelte-notifications';
     import { get } from 'svelte/store';
-    import Land from './components/land.svelte'
+    import Land from './components/land.svelte'  
     import Home from './screens/home.svelte'
     import Bookmarks from './screens/bookmarks.svelte'
     import Auth from './components/auth.svelte'

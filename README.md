@@ -13,10 +13,16 @@ cd Project-Blackbird
 yarn
 ```
 
-...then start webpack:
+...to start the project in dev mode:
 
 ```bash
 yarn run dev
 ```
 
-Navigate to [localhost:8080](http://localhost:8080).
+...to build the project:
+
+```bash
+yarn run build
+```
+
+Navigate to [localhost:8000](http://localhost:8000).

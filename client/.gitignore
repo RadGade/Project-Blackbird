@@ -3,8 +3,3 @@ node_modules
 public/bundle.*
 package-lock.json
 yarn.lock
-ssl
-radata
-rootCA.ca
-*.log
-.vscode

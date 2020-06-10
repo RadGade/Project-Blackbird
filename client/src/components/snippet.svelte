@@ -16,7 +16,6 @@
     .get('likes')
     .map()
     .on((u) => {
-      console.log(u)
       if (u.postID == id) {
         active = true
       }

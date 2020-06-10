@@ -1,13 +1,16 @@
 import Gun from "gun";
 import "gun/sea";
 import "gun/lib/rindexed.js";
+import "gun/nts";
 import "gun/lib/webrtc";
 import { writable } from "svelte/store";
 import { v4 as uuidv4 } from "uuid";
 
-var peers = ["https://e2eec.herokuapp.com/gun"];
-var db = Gun({ peers: peers, localStorage: false, radisk: false });
-var guser = db.user().is;
+var peerList = ["http://localhost:8765/gun", "https://gunjs.herokuapp.com/gun"];
+var db = Gun({
+  peers: peerList,
+});
+
 var net = db.get("devnet");
 SEA.work("data", "pair").then(console.log);
 function auth(alias, pass) {

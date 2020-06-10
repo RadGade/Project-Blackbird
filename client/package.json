@@ -15,7 +15,7 @@
     "carbon-components-svelte": "^0.6.2"
   },
   "scripts": {
-    "build": "cross-env NODE_ENV=production webpack",
+    "build": "webpack",
     "dev": "webpack --watch --content-base public"
   },
   "dependencies": {

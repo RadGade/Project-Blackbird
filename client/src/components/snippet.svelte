@@ -1,6 +1,8 @@
 <script>
-  export let username, message, id, pub
-  import { like, db, unlike, bookmark, unbookmark } from '../blue'
+  export let username, message, id, pub, uuid
+  import { like, db, unlike, bookmark, unbookmark } from '../blue/blue'
+
+  import { replace, location } from 'svelte-spa-router'
   let num
   let active, bookmarked
   db.get('devnet')
@@ -70,7 +72,11 @@
 </style>
 
 <div class="pCon w-1/2 rounded-md mt-12 mb-12 ml-32 h-auto pt-4">
-  <div class="profile-pic h-10 w-10 bg-gray-400 ml-4 mt-4 rounded absolute" />
+  <div
+    class="profile-pic h-10 w-10 bg-gray-400 ml-4 mt-4 rounded absolute"
+    on:click={() => {
+      replace('/bio/' + uuid)
+    }} />
   <div class="header mt-4 absolute pl-2">
     @{username}
     <span class="timestamp">Today at 6:10 PM</span>

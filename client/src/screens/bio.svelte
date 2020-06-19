@@ -4,7 +4,6 @@ export let params = {}
     import Bio from '../components/bio.svelte'
     import MySnip from '../components/mySnippets.svelte'
     import Background from '../components/bioBackgroundImage.svelte'
-import {db} from '../blue'
 
 
 </script>

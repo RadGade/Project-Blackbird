@@ -3,7 +3,7 @@
   import { push } from 'svelte-spa-router'
   import { get } from 'svelte/store'
   import { authStore } from '../authStore'
-  import { create, auth } from '../blue'
+  import { create, auth } from '../blue/blue'
   let alias, pwd
   import { getNotificationsContext } from 'svelte-notifications'
   const { addNotification } = getNotificationsContext()

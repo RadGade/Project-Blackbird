@@ -20,6 +20,6 @@ app.use(cors());
 
 http.createServer(app).listen(8000, function () {
   console.log(
-    "Example app listening on port 8000! Go to https://localhost:8000/"
+    "Example app listening on port 8000! Go to http://localhost:8000/"
   );
 });

@@ -9,7 +9,7 @@
     "client-install": "cd client && npm install",
     "start": "node index.js",
     "serve:server": "nodemon index.js",
-    "serve:client": "cd client && yarn dev",
+    "serve:client": "cd client && npm run dev",
     "dev": "concurrently \"npm run serve:server\" \"npm run serve:client\"",
     "heroku-postbuild": "cd client && npm install && npm run build"
   },

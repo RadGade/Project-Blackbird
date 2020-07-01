@@ -14,6 +14,8 @@ var peerList = [
   ];
   const db = Gun({
     peers: peerList,
+    localStorage: false,
+    rindexed : true
   });
 
 export default db;

@@ -8,7 +8,7 @@
   import { getContext } from 'svelte'
   import { fly } from 'svelte/transition'
   const { open } = getContext('simple-modal')
-  let Bio
+  let Bio, PP
   let is = []
   let opening = false
   let opened = false
@@ -25,6 +25,7 @@
     .on((ack) => {
       console.log(ack)
       Bio = ack.bio
+      PP = ack.ProfilePic
       Bio = Bio
     })
 
@@ -181,7 +182,7 @@
 <div class=" h-64 absolute">
   <!-- markup (zero or more items) goes here -->
   <div class="profile-con h-64 w-64 ml-48 mt-56 absolute">
-    <div class="profile-pic h-20 w-20 bg-gray-700 rounded ml-20 mt-4" />
+    <img src={PP} class="profile-pic h-20 w-20 bg-gray-700 rounded ml-20 mt-4" alt = "profilePic" />
     <p class="username ml-20 mt-4">@{Username}</p>
 
     <p

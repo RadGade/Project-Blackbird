@@ -11,7 +11,7 @@
   "scripts": {
     "client-install": "cd client && npm install",
     "start": "concurrently \"npm run serve:server\" \"npm run build:client\"",
-    "serve:server": "nodemon index.js",
+    "serve:server": "node index.js",
     "serve:client": "cd client && npm run dev",
     "build:client": "cd client && npm run build",
     "dev": "concurrently \"npm run serve:server\" \"npm run serve:client\"",

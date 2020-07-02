@@ -15,7 +15,7 @@
     "carbon-components-svelte": "^0.6.2"
   },
   "scripts": {
-    "build": "webpack --watch",
+    "build": "webpack",
     "dev": "webpack --watch --content-base public"
   },
   "dependencies": {

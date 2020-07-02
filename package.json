@@ -7,9 +7,10 @@
   "license": "MIT",
   "scripts": {
     "client-install": "cd client && npm install",
-    "start": "node index.js",
+    "start": "concurrently \"npm run serve:server\" \"npm run build:client\"",
     "serve:server": "nodemon index.js",
     "serve:client": "cd client && npm run dev",
+    "build:client": "cd client && npm run build",
     "dev": "concurrently \"npm run serve:server\" \"npm run serve:client\"",
     "heroku-postbuild": "cd client && npm install && npm run build"
   },

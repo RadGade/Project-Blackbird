@@ -31,6 +31,7 @@ function create(alias, pass) {
       if (ack.err) {
         return rej(ack.err);
       } else {
+        console.log(ack)
         uploadProfilePic(myAvatar.getAvatarUrl())
         window.sessionStorage.setItem("user", ack.pub);
         return res(ack);

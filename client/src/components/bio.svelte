@@ -232,3 +232,15 @@
   </div>
 
 </div>
+
+
+
+<!-- <h1>Who are you</h1>
+
+<div class="auth-con">
+    <input type="text" placeholder="username">
+    <input type="password" placeholder="password">
+         <button class="btn-shine">
+        <span>Login</span>
+      </button><button>Sign Up</button>
+</div> -->

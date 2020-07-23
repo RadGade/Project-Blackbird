@@ -16,7 +16,7 @@
   },
   "scripts": {
     "build": "webpack --watch --content-base public",
-    "dev": "webpack --watch --content-base public"
+    "dev": "webpack-dev-server --content-base public"
   },
   "dependencies": {
     "animal-avatars.js": "0.0.2",
